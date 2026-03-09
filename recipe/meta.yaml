@@ -1,6 +1,6 @@
 {% set PYTHON_MIN = "3.11" %}
-{% set VERSION = "2.0.0rc12" %}
-{% set SHA256 = "f1bbce79e76c9be38e81ed5e62e622fccf8029428e2f0016abc25d0318af18fb" %}
+{% set VERSION = "2.0.0rc13" %}
+{% set SHA256 = "b98ced9810ba28520cda7d9c4dfe00a4d1276599d6325a8e1a9f25df778a663d" %}
 # curl -sL https://github.com/kreshuklab/plant-seg/archive/refs/tags/2.0.0rc11.tar.gz | openssl sha256
 
 package:
@@ -43,7 +43,7 @@ requirements:
     - h5py <=3.151
     - zarr <=3.1.5
     - vigra <=1.12.2
-    - python-elf <=0.7.3
+    - python-elf <=0.7.4
     - python-graphviz <=0.21
     - scikit-image <=0.25.2
     - bioimageio.core <=0.9.5
@@ -57,6 +57,7 @@ requirements:
     - requests <=2.32.5
     - pyyaml <=6.0.3
     - pydantic <=2.11.10
+    - numpy <=2.3.5
 
 
 test:
